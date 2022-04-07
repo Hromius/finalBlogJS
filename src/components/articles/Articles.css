@@ -1,0 +1,76 @@
+.content{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: white;
+    width: 950px;
+    min-height: 140px;
+}
+
+.content_text{
+    margin-left: 5px;
+    font-size: 14px;
+    width: 700px;
+    padding-bottom: 15px;
+}
+.content_nick{
+position: absolute;
+right: 70px;
+}
+.content_profile{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.content_data{
+    position: absolute;
+    top: 20px;
+    left: -72px;
+}
+.title{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #1890FF;
+}
+
+.content_profile_avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content_like{
+    margin-left: 15px;
+}
+.content_containerTags{
+width: 800px;
+}
+.content_tag{
+    display: inline-block;
+    height: 28px;
+    border: 2px solid rgb(148, 148, 148);
+    border-radius: 3px;
+    color: #00000080;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.profile_user{
+position: relative;
+width: 60px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px !important;
+}
+.like{
+cursor: pointer;
+}

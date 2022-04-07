@@ -1,0 +1,83 @@
+
+
+.header{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    
+    height: 80px;
+    font-size: 17px;
+    }
+
+.Realworld{
+    color: black;
+    margin-top: 27px;
+    margin-left: 40px;
+    
+}
+
+.Sign-In{
+    color: black;
+margin-left: auto;
+margin-right: 50px;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+.Sign-Up{
+    color: #52C41A;
+    margin-top: 17px;
+    margin-right: 40px;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #52C41A;
+}
+
+.log-Out{
+margin-top: 17px;
+margin-right: 40px;
+height: 40px;
+width: 115px;
+color: black;
+border: 1px solid black;
+border-radius: 5px;
+text-align: center;
+line-height: 34px;
+}
+
+.profile_user{
+display: flex;
+justify-content:space-between;
+flex-direction:row-reverse ;
+margin-left: auto;
+min-width: 350px;
+margin-right: 25px;
+}
+
+.profile_Username{
+color: black;
+ width: auto;
+ margin-top: 23px;
+
+}
+
+.createArticle{
+    display: block;
+    color: #52C41A;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.headerAvatar{
+    margin-top: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

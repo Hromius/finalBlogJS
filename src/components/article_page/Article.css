@@ -1,0 +1,129 @@
+.page{
+    position: relative;
+    width: 941px;
+    min-height: 870px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.page_top{
+    display: flex;
+    
+}
+.page_title{
+    font-size: 20px;
+    color: #1890FF;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.page_profile{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+.page_tag{
+    width: 700px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.page_description{
+ width: 700px;
+ height: 70px;
+ color: #5f5f5f;
+ margin-left: 20px;
+ margin-top: 15px;
+}
+
+.page_controlPanel{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.page_description_controlPanel{
+    display: flex;
+}
+.page_text{
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 900px;
+}
+
+.redact{
+    position: absolute;
+    display: flex;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+    right: 0px;
+    top:50px;
+}
+.deleteArticle{
+    text-align: center;
+    width: 90px;
+    height: 35px;
+    color: red;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 7px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.redactArticle{
+    text-align: center;
+    width: 90px;
+    margin-left: 10px;
+    height: 35px;
+    color: #52C41A;
+    line-height: 30px;
+    border: 1px solid #52C41A;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteMenu{
+position: absolute;
+display: flex;
+flex-wrap: wrap;
+background-color: white;
+width: 260px;
+height: 100px;
+right: -72px;
+top:50px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px 6px rgba(34, 60, 80, 0.24);
+}
+.deleteMenu :nth-child(1){
+width: 260px;
+margin-top: 5px;
+text-align: center;
+line-height: 25px;
+}
+.deleteMenu :nth-child(2){
+    margin-left: 70px;
+    width: 50px;
+    height: 33px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+.deleteMenu :nth-child(3){
+    margin-left: 20px;
+    width: 50px;
+    height: 33px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}    
+.deleteMenu :hover:nth-child(2){
+    color: white;
+    background-color: #1890FF;
+}
+.deleteMenu :hover:nth-child(3){
+    color: white;
+    background-color: #1890FF;
+}

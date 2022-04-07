@@ -1,0 +1,145 @@
+.signUp{
+    background-color: white;
+    width: 384px;
+    height: 640px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signUp_text{
+    padding-top: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signUp_form{
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+.signUp_form :nth-child(n){
+    margin-left: 20px;
+}
+
+.signUp_form :nth-child(2){
+    width: 333px;
+    height: 40px;
+    
+    border-radius: 5px;
+}
+.signUp_input{
+width: 250px;
+height: 25px;
+border-radius: 5px;
+border: 1px solid rgba(184, 184, 184, 0.829);
+}
+
+.signUp_line{
+    width: 255px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 0.5px solid rgb(155, 155, 155);
+}
+
+.signUp_checkbox{
+    display: flex;
+    width: 333px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.signUp_checkbox :nth-child(2){
+margin-left: 5px;
+}
+
+.signUp_create{
+  background-color: #1890FF;  
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px;
+  width: 255px;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.sign_In{
+    background-color: #1890FF;  
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  line-height: 35px;
+  width: 255px;
+  height: 40px;
+  margin-left: 60px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.signUp_signIn{
+    color: gray;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login{
+    background-color: white;
+    width: 384px;
+    height: 380px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signUpError{
+    margin-left: 0px !important;
+color: red;
+}
+.error_red{
+    border-color: red;
+}
+
+.server_result{
+font-size: 40px;
+
+}
+.errorRegister{
+    position: absolute;
+    padding: 5px;
+    top: 100px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+}
+.border_red{
+    border: 1px solid rgb(255, 0, 0);
+}
+.errorRegisterTwo{
+    position: absolute;
+    padding: 5px;
+    top: 100px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.errorRegisterTwo :nth-child(1){
+    padding: 5px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+}
+.errorRegisterTwo :nth-child(2){
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 0, 0);  
+}

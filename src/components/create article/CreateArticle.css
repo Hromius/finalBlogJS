@@ -1,0 +1,83 @@
+.createPage{
+    width: 941px;
+    min-height: 870px;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.CA_form{
+margin-left: 25px;
+}
+.CA_name{
+    width: auto;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.CA_title, .CA_shortDescription, .CA_text, .CA_tags{
+    margin-top: 20px;
+}
+
+.send{
+background-color: #1890FF;
+color: white;
+border-radius: 5px;
+width: 300px;
+height: 40px;
+margin-top: 20px;
+margin-left: 20px;
+text-align: center;
+line-height: 37px;
+}
+
+.tagBlock{
+ display: flex;
+}
+.CA_title_input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 875px;
+    height: 40px;   
+}
+.CA_textInput{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 875px;
+    height: 160px;
+}
+.CA_tagsInput{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 350px;
+    height: 40px; 
+    margin-bottom: 7px;
+}
+.CA_tags{
+    position: relative;
+    margin-bottom: 10px;
+}
+.addTag{
+    position: absolute;
+    top: 33px;
+    right: 245px;
+    color: #1890FF;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    border: 1px solid #1890FF;
+    width: 140px;
+    height: 41px;  
+}
+.deliteTag{
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    text-align: center;
+    line-height: 35px;
+    width: 140px;
+    height: 40px; 
+}
